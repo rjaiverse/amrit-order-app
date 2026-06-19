@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "name": "Flours & Grains",
+      "products": [
+        { "sku": "FL-001", "name": "Whole Wheat Atta 20 lb", "unit": "bag" },
+        { "sku": "FL-002", "name": "Whole Wheat Atta 10 lb", "unit": "bag" },
+        { "sku": "FL-003", "name": "All Purpose Flour (Maida) 20 lb", "unit": "bag" },
+        { "sku": "FL-004", "name": "Chickpea Flour (Besan) 4 lb", "unit": "bag" },
+        { "sku": "FL-005", "name": "Semolina (Sooji) 4 lb", "unit": "bag" },
+        { "sku": "FL-006", "name": "Cornmeal (Makki Atta) 4 lb", "unit": "bag" }
+      ]
+    },
+    {
+      "name": "Rice",
+      "products": [
+        { "sku": "RC-001", "name": "Basmati Rice 20 lb", "unit": "bag" },
+        { "sku": "RC-002", "name": "Basmati Rice 10 lb", "unit": "bag" },
+        { "sku": "RC-003", "name": "Sella Basmati Rice 20 lb", "unit": "bag" },
+        { "sku": "RC-004", "name": "Parboiled Rice 20 lb", "unit": "bag" }
+      ]
+    },
+    {
+      "name": "Lentils & Beans",
+      "products": [
+        { "sku": "DL-001", "name": "Toor Dal (Split Pigeon Peas) 4 lb", "unit": "bag" },
+        { "sku": "DL-002", "name": "Masoor Dal (Red Lentils) 4 lb", "unit": "bag" },
+        { "sku": "DL-003", "name": "Moong Dal 4 lb", "unit": "bag" },
+        { "sku": "DL-004", "name": "Urad Dal 4 lb", "unit": "bag" },
+        { "sku": "DL-005", "name": "Chana Dal 4 lb", "unit": "bag" },
+        { "sku": "DL-006", "name": "Kabuli Chana (Chickpeas) 4 lb", "unit": "bag" },
+        { "sku": "DL-007", "name": "Rajma (Kidney Beans) 4 lb", "unit": "bag" }
+      ]
+    },
+    {
+      "name": "Oils & Ghee",
+      "products": [
+        { "sku": "OL-001", "name": "Canola Oil 3 L", "unit": "jug" },
+        { "sku": "OL-002", "name": "Sunflower Oil 3 L", "unit": "jug" },
+        { "sku": "OL-003", "name": "Mustard Oil 1 L", "unit": "bottle" },
+        { "sku": "GH-001", "name": "Pure Ghee 800 g", "unit": "tin" },
+        { "sku": "GH-002", "name": "Pure Ghee 2 kg", "unit": "tin" }
+      ]
+    },
+    {
+      "name": "Spices",
+      "products": [
+        { "sku": "SP-001", "name": "Turmeric Powder 400 g", "unit": "pack" },
+        { "sku": "SP-002", "name": "Red Chili Powder 400 g", "unit": "pack" },
+        { "sku": "SP-003", "name": "Coriander Powder 400 g", "unit": "pack" },
+        { "sku": "SP-004", "name": "Cumin Seeds 400 g", "unit": "pack" },
+        { "sku": "SP-005", "name": "Garam Masala 200 g", "unit": "pack" },
+        { "sku": "SP-006", "name": "Black Pepper Whole 200 g", "unit": "pack" },
+        { "sku": "SP-007", "name": "Mustard Seeds 400 g", "unit": "pack" }
+      ]
+    },
+    {
+      "name": "Snacks & Sweets",
+      "products": [
+        { "sku": "SN-001", "name": "Samosa (Frozen) 20 pcs", "unit": "box" },
+        { "sku": "SN-002", "name": "Spring Roll (Frozen) 20 pcs", "unit": "box" },
+        { "sku": "SN-003", "name": "Bhujia Sev 340 g", "unit": "pack" },
+        { "sku": "SN-004", "name": "Soan Papdi 500 g", "unit": "box" },
+        { "sku": "SN-005", "name": "Gulab Jamun (Tin) 1 kg", "unit": "tin" }
+      ]
+    },
+    {
+      "name": "Dairy & Frozen",
+      "products": [
+        { "sku": "DF-001", "name": "Paneer 1 kg", "unit": "block" },
+        { "sku": "DF-002", "name": "Frozen Roti 30 pcs", "unit": "pack" },
+        { "sku": "DF-003", "name": "Frozen Paratha 5 pcs", "unit": "pack" },
+        { "sku": "DF-004", "name": "Yogurt 2 kg", "unit": "tub" }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "products": [
+        { "sku": "BV-001", "name": "Mango Pulp 850 g", "unit": "tin" },
+        { "sku": "BV-002", "name": "Rooh Afza Syrup 800 ml", "unit": "bottle" },
+        { "sku": "BV-003", "name": "Masala Chai Tea 400 g", "unit": "box" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#1B3F8B" />
+  <title>Amrit Foods — New Order</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="app-page">
+  <header class="app-header">
+    <div class="app-header-inner">
+      <span class="app-title">AMRIT FOODS</span>
+      <button id="signOutBtn" class="btn-link" type="button">Sign out</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <!-- Order details -->
+    <section class="panel">
+      <h2 class="panel-title">Order Details</h2>
+      <div class="field-grid">
+        <div class="field">
+          <label class="field-label" for="customerName">Customer</label>
+          <input id="customerName" type="text" placeholder="Customer / store name" autocapitalize="words" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="salespersonName">Salesperson</label>
+          <input id="salespersonName" type="text" placeholder="Your name" autocapitalize="words" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="orderDate">Date</label>
+          <input id="orderDate" type="date" />
+        </div>
+        <div class="field field-full">
+          <label class="field-label" for="orderNotes">Notes</label>
+          <textarea id="orderNotes" rows="2" placeholder="Delivery instructions, special requests…"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalogue -->
+    <section class="panel">
+      <h2 class="panel-title">Products</h2>
+      <div class="search-row">
+        <input id="searchInput" type="search" placeholder="Search products or SKU…" autocapitalize="off" autocorrect="off" />
+      </div>
+      <div id="categoryTabs" class="category-tabs" role="tablist"></div>
+      <div id="catalogue" class="catalogue"></div>
+    </section>
+  </main>
+
+  <!-- Order summary bar (sticky bottom) -->
+  <div id="orderBar" class="order-bar" hidden>
+    <button id="viewOrderBtn" class="order-bar-btn" type="button">
+      <span id="orderCount" class="order-bar-count">0</span>
+      <span>View Order</span>
+      <span id="orderUnits" class="order-bar-units"></span>
+    </button>
+  </div>
+
+  <!-- Order review sheet -->
+  <div id="orderSheet" class="sheet" hidden style="display:none">
+    <div class="sheet-backdrop" data-close-sheet></div>
+    <div class="sheet-card">
+      <div class="sheet-head">
+        <h2 class="panel-title">Current Order</h2>
+        <button class="btn-link" type="button" data-close-sheet>Close</button>
+      </div>
+      <div id="orderLines" class="order-lines"></div>
+      <div class="sheet-actions">
+        <button id="clearOrderBtn" class="btn btn-ghost" type="button">Clear</button>
+        <button id="submitOrderBtn" class="btn btn-primary" type="button">Submit Order</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Generated summary -->
+  <div id="summarySheet" class="sheet" hidden style="display:none">
+    <div class="sheet-backdrop" data-close-summary></div>
+    <div class="sheet-card">
+      <div class="sheet-head">
+        <h2 class="panel-title">Order Summary</h2>
+        <button class="btn-link" type="button" data-close-summary>Close</button>
+      </div>
+      <pre id="summaryText" class="summary-text"></pre>
+      <div class="sheet-actions">
+        <button id="copyBtn" class="btn btn-gold" type="button">Copy for WhatsApp</button>
+        <button id="printBtn" class="btn btn-primary" type="button">Print</button>
+      </div>
+      <p id="copyStatus" class="copy-status" hidden>Copied to clipboard ✓</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
